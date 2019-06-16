@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* styling list items */
+
+ul li {
+    position: relative;
+    padding: 12px 8px 12px 32px;
+    font-size: 16px;
+    transition: .2s;
+    background: #ddd;
+    cursor: pointer;
+    border: solid #000000 1px;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: darkgray;
+}
+
+ul li.done {
+    text-decoration: line-through;
+}
+
+.header {
+    background-color:lightblue;
+    padding: 10px 20px;
+    text-align: center;
+    border: solid #000000 1px;
+    floa
+}
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#myInput {
+    margin: 0;
+    border: none;
+    width: 85%;
+    font-size: 20px;
+}
+
+.AddBTN {
+    width: 15%;
+    padding: 3px;
+    background: lightgreen;
+    font-size: 16px;
+    float: right;
+    cursor: pointer;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
